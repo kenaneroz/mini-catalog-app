@@ -1,18 +1,18 @@
-# Mini Katalog
+# Mini Catalog
 
-Flutter ile geliştirdiğim basit bir ürün katalog uygulaması. Eğitim sürecinde öğrendiklerimi pekiştirmek için yaptım.
+A simple product catalog app I built with Flutter. Made it to practice what I learned during the training.
 
-## Ne işe yarıyor?
+## What it does
 
-Ürünleri listeleyen, arama yapabilen, detay sayfasına gidebilen ve sepete ekleme simülasyonu yapan bir uygulama. API'den veri çekiyor, kartlar halinde gösteriyor.
+It fetches products from an API, shows them in a grid layout, lets you search, view details, and add items to a cart (simulated).
 
-## Ekranlar
+## Screens
 
-- **Ana Sayfa** – Ürünleri grid halinde listeler, arama yapabilirsin
-- **Ürün Detay** – Ürüne tıklayınca açılan sayfa, açıklama ve özellikler var
-- **Sepet** – Sepete eklenen ürünleri gösterir, kaydırarak silebilirsin
+- **Home** – Lists products in a grid, has a search bar
+- **Product Detail** – Shows description, specs, and price when you tap a product
+- **Cart** – Shows added items, swipe to remove
 
-## Klasör Yapısı
+## Folder Structure
 
 ```
 lib/
@@ -29,14 +29,15 @@ lib/
     └── search_bar_widget.dart
 ```
 
-## Kullandığım Şeyler
+## Tech Stack
 
 - Flutter SDK (>=3.0.0)
 - Dart
-- `http` paketi (API çağrısı için)
+- `http` package (for API calls)
+- `google_fonts` package (Poppins font)
 - Material Design 3
 
-## Nasıl Çalıştırılır
+## How to Run
 
 ```bash
 flutter pub get
@@ -45,4 +46,4 @@ flutter run
 
 ## API
 
-Ürün verileri `https://wantapi.com/products.php` adresinden geliyor. Banner görseli de `https://wantapi.com/assets/banner.png` adresinden çekiliyor. Bunlar tamamen eğitim amaçlı, gerçek bir mağaza değil.
+Product data comes from `https://wantapi.com/products.php`. Banner image is from `https://wantapi.com/assets/banner.png`. These are for educational purposes only, not a real store.

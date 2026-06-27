@@ -1,0 +1,34 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+*.swp
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.lock
+
+# Android
+mini_katalog/android/.gradle/
+mini_katalog/android/local.properties
+mini_katalog/android/app/debug/
+mini_katalog/android/app/profile/
+mini_katalog/android/app/release/
+
+# iOS
+mini_katalog/ios/Pods/
+mini_katalog/ios/.symlinks/
+mini_katalog/ios/Flutter/Flutter.framework
+mini_katalog/ios/Flutter/Flutter.podspec
+
+# Misc
+*.log
+*.pyc
+.env

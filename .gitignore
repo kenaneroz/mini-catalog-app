@@ -12,21 +12,22 @@
 .packages
 .flutter-plugins
 .flutter-plugins-dependencies
+.metadata
 build/
-*.lock
+pubspec.lock
 
 # Android
-mini_katalog/android/.gradle/
-mini_katalog/android/local.properties
-mini_katalog/android/app/debug/
-mini_katalog/android/app/profile/
-mini_katalog/android/app/release/
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
 
 # iOS
-mini_katalog/ios/Pods/
-mini_katalog/ios/.symlinks/
-mini_katalog/ios/Flutter/Flutter.framework
-mini_katalog/ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
 
 # Misc
 *.log
